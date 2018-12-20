@@ -21,8 +21,8 @@ android {
         applicationId "studio.stijl.tsl_app"
         minSdkVersion 20
         targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "1.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
