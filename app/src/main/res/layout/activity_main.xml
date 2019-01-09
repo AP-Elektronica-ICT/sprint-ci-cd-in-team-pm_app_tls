@@ -17,40 +17,63 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/activitie2Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="173dp"
-        android:layout_marginEnd="224dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="26dp"
-        android:text="Useless"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="56dp"
+        android:text="Activitie2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:text="Force Crash!"
-        android:onClick="forceCrash"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="116dp"
+        android:onClick="forceCrash"
+        android:text="Force Crash!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="180dp"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/activitie1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="56dp"
+        android:text="Activitie1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/activitie3Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="56dp"
+        android:text="Activitie3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>
