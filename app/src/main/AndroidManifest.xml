@@ -25,7 +25,9 @@
 
         <activity
             android:name=".Activitie1"
-            android:label="@string/title_activity_activitie1"></activity>
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_activitie1"
+            android:theme="@style/FullscreenTheme"></activity>
     </application>
 
 </manifest>
