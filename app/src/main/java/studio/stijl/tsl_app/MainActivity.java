@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         mActivitie2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Intent i = new Intent(getApplicationContext(),Activitie2.class);
-                //startActivity(i);
+                Intent i = new Intent(getApplicationContext(),Activitie2.class);
+                startActivity(i);
             }
         });
         final Button mActivitie3 = findViewById(R.id.activitie3Button);
