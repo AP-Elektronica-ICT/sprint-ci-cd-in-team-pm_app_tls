@@ -28,7 +28,11 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_activitie1"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name=".Activitie2"></activity>
+        <activity android:name=".Activitie2" />
+        <activity
+            android:name=".Activitie3"
+            android:label="@string/title_activity_activitie3"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
